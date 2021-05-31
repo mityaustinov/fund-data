@@ -105,10 +105,10 @@ class App extends Component {
                     </ul>
 
                     <svg width="100%" height="200">
-                        <rect width="95%" height="200" y="0" x="5%" stroke="#dddddd" fill="#fff"/>
-                        <line id="line25" x1="5%" x2="100%" y2="75%" y1="75%" stroke="#dddddd" strokeDasharray="5,5" fill="none"/>
-                        <line id="line50" x1="5%" x2="100%" y2="50%" y1="50%" stroke="#dddddd" strokeDasharray="5,5" fill="none"/>
-                        <line id="line75" x1="5%" x2="100%" y2="25%" y1="25%" stroke="#dddddd" strokeDasharray="5,5" fill="none"/>
+                        <rect width="95%" height="200" x="36" y="0" stroke="#dddddd" fill="#fff"/>
+                        <line id="line25" x1="36" x2="100%" y2="75%" y1="75%" stroke="#dddddd" strokeDasharray="5,5" fill="none"/>
+                        <line id="line50" x1="36" x2="100%" y2="50%" y1="50%" stroke="#dddddd" strokeDasharray="5,5" fill="none"/>
+                        <line id="line75" x1="36" x2="100%" y2="25%" y1="25%" stroke="#dddddd" strokeDasharray="5,5" fill="none"/>
                         <text fontFamily="sans-serif" fontSize="10" strokeWidth="0" y="100%" x="11" fill="#000000">0%</text>
                         <text fontFamily="sans-serif" fontSize="10" strokeWidth="0" y="150" x="5" sfill="#000000">25%</text>
                         <text fontFamily="sans-serif" fontSize="10" strokeWidth="0" y="100" x="5" fill="#000000">50%</text>
