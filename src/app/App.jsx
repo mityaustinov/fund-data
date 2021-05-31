@@ -118,7 +118,6 @@ class App extends Component {
                         {this.state.fundData !== null &&
                             getYearSwing(this.state.fundData).map((item, i) => {
                                 const [year, result] = item
-
                                 return( 
                                     <Bar key={`b${year}`} year={year} result={result} i={i} />
                                 )
